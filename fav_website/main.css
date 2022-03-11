@@ -1,0 +1,68 @@
+.topnav {
+  display: flex;
+  padding: 1em;
+  margin-top: 1em;
+  height: 3em;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  position: absolute;
+  top: 0.5em;
+  left: 1em;
+}
+
+#menu {
+  position: absolute;
+  top: 0.5em;
+  right: 1em;
+  display: block;
+}
+
+#search {
+  position: absolute;
+  right: 4em;
+  top: 0.5em;
+  display: block;
+}
+
+#bag {
+  position: absolute;
+  right: 7em;
+  top: 0.5em;
+  display: block;
+}
+
+body {
+  margin: 1em;
+}
+
+.col-md-6 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-img-overlay {
+  position: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+#get-app {
+  width: 200px;
+  height: 38px;
+}
+
+.btn {
+  border-radius: 40%;
+}
+
+#first-image {
+  height: 400px;
+}
+
+.card-img {
+  height: 700px;
+}
